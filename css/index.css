@@ -1,0 +1,112 @@
+* {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 22px;
+}
+
+
+img {
+    height: 400px;
+    width:  50%;
+    margin-top: 2.0em;
+}
+
+  html,
+  body {
+    height: 100%;
+  }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+  }
+
+.navigation-lists {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 250px;
+    padding: 45px;
+    gap: 10px;
+    font-size: 30px;
+    
+    
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: blue;
+    transition: color 0.5s linear;
+  }
+
+div {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.about-me-container {
+    display:flex;
+    margin-left: 0;
+    
+}
+
+.about-me-text-container {
+    margin-right: 250px;
+}
+
+section {
+    display: block;
+}
+
+.skills {
+    display: flex;
+    margin-left: 250px;
+}
+
+#skills-container {
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-left: 28rem;
+
+}
+
